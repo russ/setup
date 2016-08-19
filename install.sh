@@ -2,9 +2,11 @@
 
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-brew install homebrew/boneyard/bundle
+brew update
+brew tap Homebrew/bundle
+brew install mas
 
 cd /tmp/
-curl  https://Brewfile > Brewfile
+curl https://raw.githubusercontent.com/russ/setup/master/Brewfile > Brewfile
 export HOMEBREW_BREWFILE=./Brewfile
 brew file install
