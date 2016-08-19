@@ -86,5 +86,3 @@ mas 'Sip', id: 507257563
 mas 'Slack', id: 803453959
 mas 'Xcode', id: 497799835
 mas 'iStat Mini', id: 927292435
-
-curl -L http://install.ohmyz.sh | sh

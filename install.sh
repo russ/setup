@@ -10,3 +10,5 @@ cd /tmp/
 curl https://raw.githubusercontent.com/russ/setup/master/Brewfile > Brewfile
 export HOMEBREW_BREWFILE=./Brewfile
 brew bundle
+
+curl -L http://install.ohmyz.sh | sh
